@@ -10,6 +10,18 @@ gcloud auth application-default login
 ```
 
 
+gcloud run deploy moviesync \
+  --source . \
+  --port 8080 \
+  --allow-unauthenticated \
+  --project=genabhi \
+  --region=us-central1 \
+  --labels=dev-tutorial=an-adk
+
+git clone https://github.com/abhishekmsm51w-star/moviesync.git
+
+
+
 ### FOR DEPLOYMENT 
 
 ```
